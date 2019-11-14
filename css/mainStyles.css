@@ -17,7 +17,6 @@ body {
 }
 /* navigation bar */
 .topBar {
-  position: absolute;
   background-color: lavender;
   font-size: 35px;
   text-align: center;
@@ -132,4 +131,14 @@ body {
   float: right;
   margin-right: 80px;
   text-decoration: none;
+}
+
+.header,
+.topBar {
+  display: block;
+  position: relative;
+}
+
+.topBar a:nth-child(5):hover{
+  background-color: rgb(39, 170, 221);
 }

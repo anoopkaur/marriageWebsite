@@ -1,0 +1,83 @@
+body {
+  background-image: url();
+  color: purple;
+  background-color: #f9e5fc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* box-sizing: border-box; */
+  font-family: "Cinzel", serif;
+}
+
+.topBar {
+  position: center;
+  background-color: lavender;
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: "Cinzel", serif;
+  width: 100%;
+  margin-top: -3px;
+}
+
+/* NAGIVATION  */
+/* .product-filter {
+  display: flex;
+}
+
+.product-filter h2 {
+  flex-grow: 1;
+}
+
+.sort {
+  display: flex;
+}
+
+.collection-sort {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* PRODUCTS */
+.itemDiv {
+  position: relative;
+  width: 25%;
+  background-color: #f9e5fc;
+  height: 50%;
+  text-align: center;
+  font-size: 1vw;
+  float: left;
+}
+.itemImage {
+  position: center;
+  width: 50%;
+  height: 50%;
+  top: 45%;
+  left: 20%;
+}
+#itemContainer {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.itemAmountText {
+  position: center;
+  width: 50%;
+  font-size: 1vw;
+  top: 20%;
+  left: 0;
+}
+.itemAmount,
+.itemAdd {
+  top: 90%;
+  position: absolute;
+}
+.itemAmount {
+  left: 50%;
+  top: 90%;
+  width: 10%;
+}
+.itemAdd {
+  left: 65%;
+  top: 90%;
+  width: 25%;
+}
